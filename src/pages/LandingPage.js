@@ -73,20 +73,6 @@ function LandingPage() {
         />
         <meta name="keywords" content=""></meta>
         <meta name="author" content="Karthik Nath"></meta>
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Honest Digital Services Pvt. Ltd.",
-            alternateName: "The Honest Company",
-            url: "https://thehonestco.in/",
-            logo: "https://thehonestco.in/static/media/footer-logo.49d1b979f64f77c501c671e3e76b184b.svg",
-            sameAs: [
-              "https://www.linkedin.com/company/the-honest-co",
-              "https://thehonestco.in/get-in-touch/customer-inquiry",
-            ],
-          })}
-        </script>
       </Helmet>
       <Hero />
       <Header />

@@ -6,6 +6,8 @@ import logo from "../images/logo.svg";
 import logoIcon from "../images/logo-icon.png";
 import { Link, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
+import startImage from "./Verfifed.svg"; // Ensure the correct path is used
+import startmob from './MobileBatch.webp'
 import $ from "jquery";
 
 function Hero() {
@@ -22,7 +24,7 @@ function Hero() {
     $("#toggle").toggleClass("active");
     $("#overlay").toggleClass("open");
   };
-  const handleHome = () =>{
+  const handleHome = () => {
     setMenuOpen(!isMenuOpen);
     navigate('/')
   }
@@ -30,10 +32,10 @@ function Hero() {
     setMenuOpen(!isMenuOpen);
     navigate('/?scrollTo=Ourstory');
   }
-  const handleServicesClickMob = () =>{
+  const handleServicesClickMob = () => {
     navigate('/?scrollTo=ServicesMob')
     setMenuOpen(!isMenuOpen);
-   
+
   }
   const handleScrollTo = (elementId) => {
     const element = document.getElementById(elementId);
@@ -68,14 +70,14 @@ function Hero() {
             <Navbar.Collapse id="navbar-nav" className="justify-content-end">
               <Nav>
                 <ScrollLink to="Ourstory" smooth={true} duration={200}>
-                <Nav.Link href="#" className="menu-link">
-                  about
-                </Nav.Link>
+                  <Nav.Link href="#" className="menu-link">
+                    about
+                  </Nav.Link>
                 </ScrollLink>
                 <ScrollLink to="Services" smooth={true} duration={200}>
-                <Nav.Link href="#" className="menu-link">
-                  services
-                </Nav.Link>
+                  <Nav.Link href="#" className="menu-link">
+                    services
+                  </Nav.Link>
                 </ScrollLink>
                 <Nav.Link href="#" className="menu-link">
                   <Link to="/get-in-touch/creator-inquiry">team</Link>
@@ -86,10 +88,8 @@ function Hero() {
                 <Nav.Link href="#" className="menu-link">
                   <Link to="/resources">resources</Link>
                 </Nav.Link>
-                <Nav.Link href="#" className="nav-btn-area">
-                  <Link to="/get-in-touch/customer-inquiry">
-                    <button className="nav-button">get in touch</button>
-                  </Link>
+                <Nav.Link href="https://wa.me/917011242138" className="nav-btn-area">
+                  <button className="nav-button">get in touch</button>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -106,9 +106,8 @@ function Hero() {
             </Link>
             <div
               id="navbar-nav toggle"
-              className={`justify-content-end button_container ${
-                isMenuOpen ? "active" : ""
-              }`}
+              className={`justify-content-end button_container ${isMenuOpen ? "active" : ""
+                }`}
               onClick={handleToggle}
             >
               <span className="top"></span>
@@ -124,22 +123,22 @@ function Hero() {
                 </div>
                 <ul>
                   <li>
-                    <Link  onClick={() => handleScrollTo("Ourstory")}>
+                    <Link onClick={() => handleScrollTo("Ourstory")}>
                       About
                     </Link>
                   </li>
                   <li>
-                  
+
                     <Link onClick={() => handleScrollTo("ServicesMob")}>
                       Services
                     </Link>
-                  
+
                     /{" "}
                   </li>
                   <li>
-                  <ScrollLink to="Ourstory" smooth={true} duration={200}>
-                  <Link to="/get-in-touch/creator-inquiry">Team</Link>
-                    </ScrollLink>  
+                    <ScrollLink to="Ourstory" smooth={true} duration={200}>
+                      <Link to="/get-in-touch/creator-inquiry">Team</Link>
+                    </ScrollLink>
                   </li>
                   <li>
                     <Link to="/portfolio">Portfolio</Link>
@@ -148,7 +147,7 @@ function Hero() {
                     <Link to="/resources">Resources</Link>
                   </li>
                   <li>
-                    <Link to="/get-in-touch/customer-inquiry">
+                    <Link to="https://wa.me/917011242138">
                       <button className="nav-button">get in touch</button>
                     </Link>
                   </li>
@@ -188,25 +187,38 @@ function Hero() {
             </div>
           </main>
 
-          {/*bottom*/}
+          {/* Bottom */}
           <div className="bottom-section with-border-top">
             <div className="border-top">
-              <div className="row">
-                <div className="col-12 col-md-8">
+              <div className="row align-items-center">
+                <div className="col-12 col-md-8 d-flex flex-column alignment-text">
                   <p className="text-white pb-3 pt-4 text-uppercase bottom-header-text font-media-15 px-md-0 px-2">
                     We are a community of creators who make really cool things
                     for businesses that help them succeed.
                   </p>
-                  <ScrollLink to="contact-section" smooth={true} duration={500}>
+                  <Link to="/get-in-touch/customer-inquiry" smooth={true} duration={500}>
                     <button className="nav-foot-button">
                       Get started with us!
                     </button>
-                  </ScrollLink>
+                  </Link>
+                </div>
+                <div className="col-12 col-md-4 d-flex justify-content-end justify-content-md-end mt-md-0">
+                  <picture>
+                    <source media="(max-width: 767px)" srcSet={startmob} />
+                    <source media="(min-width: 768px)" srcSet={startImage} />
+                    <img
+                      src={startImage}
+                      alt="Get Started"
+                      className="start-image"
+                      onClick={() => window.open('https://www.designrush.com/', '_blank')}
+                      style={{ cursor: 'pointer' }}
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
           </div>
-          {/*bottom*/}
+          {/* Bottom */}
         </div>
       </Container>
     </section>

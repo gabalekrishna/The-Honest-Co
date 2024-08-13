@@ -47,7 +47,7 @@ import Article28 from './components/Articles/Article28.js';
 import Article29 from './components/Articles/Article29.js';
 import GoogleTagManager from './GoogleTagManager.js';
 import Article30 from './components/Articles/Article30.js';
-
+import BreadcrumbSchema from './components/BreadcrumbSchema.js';
 
 function App() {
   return (
@@ -64,6 +64,7 @@ function App() {
           `}
         </script>
       </Helmet>
+      <BreadcrumbSchema />
       <Router>
       <GoogleTagManager />
         <Routes>
