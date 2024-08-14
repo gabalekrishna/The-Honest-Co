@@ -264,7 +264,7 @@ function Work() {
           </Link>
         </div>
         <div className="pb-5">
-          <Link>
+          <Link to="portfolio/interview-scheduling-job-tracking-app">
             <img src={work7} className="w-100" />
             <div className="work-heading">Interview Scheduling & Job Tracking App</div>
           </Link>
