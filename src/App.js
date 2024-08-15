@@ -28,7 +28,7 @@ import Project5 from './components/Portfolio/Project5.js';
 import Project6 from './components/Portfolio/Project6';
 import Project8 from './components/Portfolio/Project8';
 import Project9 from './components/Portfolio/Project9';
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 import Article14 from './components/Articles/Article14.js';
 import Article15 from './components/Articles/Article15.js';
 import Article16 from './components/Articles/Article16.js';
@@ -48,13 +48,21 @@ import Article29 from './components/Articles/Article29.js';
 import GoogleTagManager from './GoogleTagManager.js';
 import Article30 from './components/Articles/Article30.js';
 import BreadcrumbSchema from './components/BreadcrumbSchema.js';
+import Article31 from './components/Articles/Article31.js';
+import Article32 from './components/Articles/Article32.js';
+import Article33 from './components/Articles/Article33.js';
+import Article34 from './components/Articles/Article34.js';
+import Article35 from './components/Articles/Article35.js';
 
 function App() {
   return (
     <>
       <Helmet>
         <GoogleTagManager />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0S7PV44D7"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Q0S7PV44D7"
+        ></script>
         <script>
           {`
             window.dataLayer = window.dataLayer || [];
@@ -66,51 +74,191 @@ function App() {
       </Helmet>
       <BreadcrumbSchema />
       <Router>
-      <GoogleTagManager />
+        <GoogleTagManager />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/get-in-touch/customer-inquiry" element={<CustomerContact />} />
-          <Route path="/get-in-touch/creator-inquiry" element={<CreatorContact />} />
+          <Route
+            path="/get-in-touch/customer-inquiry"
+            element={<CustomerContact />}
+          />
+          <Route
+            path="/get-in-touch/creator-inquiry"
+            element={<CreatorContact />}
+          />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resources" element={<Resource />} />
-          <Route path="/portfolio/online-d2c-ecommerce-store" element={<Project1 />} />
-          <Route path="/portfolio/p2p-money-remittance-mobile-application" element={<Project2 />} />
-          <Route path="/portfolio/cab-hailing-travel-itinerary-platform" element={<Project3 />} />
-          <Route path="/portfolio/location-sharing-sos-notifications-mobile-app" element={<Project4 />} />
-          <Route path="/portfolio/pill-reminder-doctor-appointment-platform" element={<Project5 />} />
-          <Route path="/portfolio/photo-sharing-online-ecommerce-platform" element={<Project6 />} />
-          <Route path="/portfolio/interview-scheduling-job-tracking-app" element={<Project8 />} />
-          <Route path="/portfolio/custom-school-learning-management-platform" element={<Project9 />} />
-          <Route path="/resources/articles/global-commerce-remittance-mobile-applications-business-expansion" element={<Article1 />} />
-          <Route path="/resources/articles/artificial-intelligence-machine-learning-crypto-trading-bot" element={<Article2 />} />
-          <Route path="/resources/articles/leveraging-ai-ml-models-farmers-early-detect-plant-diseases" element={<Article3 />} />
-          <Route path="/resources/articles/simplifying-ecommerce-store-creation-low-code-platforms" element={<Article4 />} />
-          <Route path="/resources/articles/optimizing-forecasting-customer-targeting-ai-ml-solutions" element={<Article5 />} />
-          <Route path="/resources/articles/comprehensive-preschool-mobile-application-parental-tracking-transits" element={<Article6 />} />
-          <Route path="/resources/articles/curating-adaptive-course-modules-deep-learning-algorithms" element={<Article7 />} />
-          <Route path="/resources/articles/contract-management-modules-automating-contracts-custom-app-development" element={<Article8 />} />
-          <Route path="/resources/articles/modernizing-interview-scheduling-mobile-apps-enhancing-team-efficiency-applicant-experience" element={<Article9 />} />
-          <Route path="/resources/articles/machine-learning-models-streamlining-application-filterization-shortlisting-hr-operations" element={<Article10 />} />
-          <Route path="/resources/articles/custom-crm-development-ecommerce-industries-businesses" element={<Article11 />} />
-          <Route path="/resources/articles/effective-route-planning-fleet-management-airiticifal-intelligence-models" element={<Article12 />} />
-          <Route path="/resources/articles/digital-transformation-and-development-in-middle-eastern-healthcare" element={<Article13 />}/>
-          <Route path="/resources/articles/custom-solutions-for-cultural-sensitivity-in-health-tech" element={<Article14/>}/>
-          <Route path="/resources/articles/simplifying-payments-with-bespoke-prm-solutions" element={<Article15/>}/>
-          <Route path="/resources/articles/mental-health-support-through-messaging-platforms" element={<Article16 />} />
-          <Route path="/resources/articles/Digital-Transformation-Trends-in-BFSI-for-2024" element={<Article17 />} />
-          <Route path="/resources/articles/AI-in-Application-Development-for-BFSI-Businesses" element={<Article18 />} />
-          <Route path="/resources/articles/Customer-Centric-Digitization-End-User-Personalized-Experiences" element={<Article19 />} />
-          <Route path="/resources/articles/Digital-Transformation-&-Business-Processes-Automation-in-Banking-&-Finance" element={<Article20 />} />
-          <Route path="/resources/articles/AI-driven-Talent-Screening-Revolutionizing-Recruitment" element={<Article21 />} />
-          <Route path="/resources/articles/Enhancing-Trust-and-Security-in-Staffing-through-Blockchain" element={<Article22 />} />
-          <Route path="/resources/articles/Rethinking-Candidate-Assessment" element={<Article23 />} />
-          <Route path="/resources/articles/Streamlining-Hiring-Through-Automated-Candidate-Screening" element={<Article24 />} />
-          <Route path="/resources/articles/Virtual-Career-Fairs-Expanding-Access-to-Opportunities" element={<Article25 />} />
-          <Route path="/resources/articles/Exploring-the-Potential-of-Student-Information-Systems" element={<Article26 />} />
-          <Route path="/resources/articles/Enhancing-Engagement-Via-Dynamic-Virtual-Learning-Environments" element={<Article27 />} />
-          <Route path="/resources/articles/Financial-Transparency-in-Education-Via-Custom-Software-Solutions" element={<Article28 />} />
-          <Route path="/resources/articles/The-Rise-of-Course-Management-&-Scheduling-Tools" element={<Article29 />} />
-          <Route path="/resources/articles/Harnessing-the-Power-of-Adaptive-Learning-Platforms" element={<Article30 />} />
+          <Route
+            path="/portfolio/online-d2c-ecommerce-store"
+            element={<Project1 />}
+          />
+          <Route
+            path="/portfolio/p2p-money-remittance-mobile-application"
+            element={<Project2 />}
+          />
+          <Route
+            path="/portfolio/cab-hailing-travel-itinerary-platform"
+            element={<Project3 />}
+          />
+          <Route
+            path="/portfolio/location-sharing-sos-notifications-mobile-app"
+            element={<Project4 />}
+          />
+          <Route
+            path="/portfolio/pill-reminder-doctor-appointment-platform"
+            element={<Project5 />}
+          />
+          <Route
+            path="/portfolio/photo-sharing-online-ecommerce-platform"
+            element={<Project6 />}
+          />
+          <Route
+            path="/portfolio/interview-scheduling-job-tracking-app"
+            element={<Project8 />}
+          />
+          <Route
+            path="/portfolio/custom-school-learning-management-platform"
+            element={<Project9 />}
+          />
+          <Route
+            path="/resources/articles/global-commerce-remittance-mobile-applications-business-expansion"
+            element={<Article1 />}
+          />
+          <Route
+            path="/resources/articles/artificial-intelligence-machine-learning-crypto-trading-bot"
+            element={<Article2 />}
+          />
+          <Route
+            path="/resources/articles/leveraging-ai-ml-models-farmers-early-detect-plant-diseases"
+            element={<Article3 />}
+          />
+          <Route
+            path="/resources/articles/simplifying-ecommerce-store-creation-low-code-platforms"
+            element={<Article4 />}
+          />
+          <Route
+            path="/resources/articles/optimizing-forecasting-customer-targeting-ai-ml-solutions"
+            element={<Article5 />}
+          />
+          <Route
+            path="/resources/articles/comprehensive-preschool-mobile-application-parental-tracking-transits"
+            element={<Article6 />}
+          />
+          <Route
+            path="/resources/articles/curating-adaptive-course-modules-deep-learning-algorithms"
+            element={<Article7 />}
+          />
+          <Route
+            path="/resources/articles/contract-management-modules-automating-contracts-custom-app-development"
+            element={<Article8 />}
+          />
+          <Route
+            path="/resources/articles/modernizing-interview-scheduling-mobile-apps-enhancing-team-efficiency-applicant-experience"
+            element={<Article9 />}
+          />
+          <Route
+            path="/resources/articles/machine-learning-models-streamlining-application-filterization-shortlisting-hr-operations"
+            element={<Article10 />}
+          />
+          <Route
+            path="/resources/articles/custom-crm-development-ecommerce-industries-businesses"
+            element={<Article11 />}
+          />
+          <Route
+            path="/resources/articles/effective-route-planning-fleet-management-airiticifal-intelligence-models"
+            element={<Article12 />}
+          />
+          <Route
+            path="/resources/articles/digital-transformation-and-development-in-middle-eastern-healthcare"
+            element={<Article13 />}
+          />
+          <Route
+            path="/resources/articles/custom-solutions-for-cultural-sensitivity-in-health-tech"
+            element={<Article14 />}
+          />
+          <Route
+            path="/resources/articles/simplifying-payments-with-bespoke-prm-solutions"
+            element={<Article15 />}
+          />
+          <Route
+            path="/resources/articles/mental-health-support-through-messaging-platforms"
+            element={<Article16 />}
+          />
+          <Route
+            path="/resources/articles/Digital-Transformation-Trends-in-BFSI-for-2024"
+            element={<Article17 />}
+          />
+          <Route
+            path="/resources/articles/AI-in-Application-Development-for-BFSI-Businesses"
+            element={<Article18 />}
+          />
+          <Route
+            path="/resources/articles/Customer-Centric-Digitization-End-User-Personalized-Experiences"
+            element={<Article19 />}
+          />
+          <Route
+            path="/resources/articles/Digital-Transformation-&-Business-Processes-Automation-in-Banking-&-Finance"
+            element={<Article20 />}
+          />
+          <Route
+            path="/resources/articles/AI-driven-Talent-Screening-Revolutionizing-Recruitment"
+            element={<Article21 />}
+          />
+          <Route
+            path="/resources/articles/Enhancing-Trust-and-Security-in-Staffing-through-Blockchain"
+            element={<Article22 />}
+          />
+          <Route
+            path="/resources/articles/Rethinking-Candidate-Assessment"
+            element={<Article23 />}
+          />
+          <Route
+            path="/resources/articles/Streamlining-Hiring-Through-Automated-Candidate-Screening"
+            element={<Article24 />}
+          />
+          <Route
+            path="/resources/articles/Virtual-Career-Fairs-Expanding-Access-to-Opportunities"
+            element={<Article25 />}
+          />
+          <Route
+            path="/resources/articles/Exploring-the-Potential-of-Student-Information-Systems"
+            element={<Article26 />}
+          />
+          <Route
+            path="/resources/articles/Enhancing-Engagement-Via-Dynamic-Virtual-Learning-Environments"
+            element={<Article27 />}
+          />
+          <Route
+            path="/resources/articles/Financial-Transparency-in-Education-Via-Custom-Software-Solutions"
+            element={<Article28 />}
+          />
+          <Route
+            path="/resources/articles/The-Rise-of-Course-Management-&-Scheduling-Tools"
+            element={<Article29 />}
+          />
+          <Route
+            path="/resources/articles/Harnessing-the-Power-of-Adaptive-Learning-Platforms"
+            element={<Article30 />}
+          />
+          <Route
+            path="/resources/articles/Empowering-Patient-Knowledge-via-PRM-softwares"
+            element={<Article31 />}
+          />
+          <Route
+            path="/resources/articles/The-Comprehensive-Guide-to-Patient-Relationship-Management-in-Healthcare"
+            element={<Article32 />}
+          />
+          <Route
+            path="/resources/articles/Streamlining-Appointments:-How-PRM-Software-Enhances-Scheduling-Efficiency"
+            element={<Article33 />}
+          />
+          <Route
+            path="/resources/articles/Simplifying-Healthcare-Payments:-The-Role-of-Billing-and-Payments"
+            element={<Article34 />}
+          />
+          <Route
+            path="/resources/articles/Seamless-Integration:-The Importance-of-EHR-Integration"
+            element={<Article35 />}
+          />
           <Route path="/thankyou" element={<Thanks />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
@@ -120,4 +268,3 @@ function App() {
 }
 
 export default App;
-
