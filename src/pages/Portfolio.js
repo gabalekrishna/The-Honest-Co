@@ -168,11 +168,14 @@ const Portfolio = () => {
                 const cardClass = index % 2 === 0 ? "odd-card" : "even-card";
                 const marginTopClass =
                   index === 0 || index === 1 ? "" : "margin-portolio";
-
+                  const paddingClass =
+                  index === 0 || index === 1 ? "pb-3" : "";
+                
                 return (
                   <ProjectCards
                     description={description}
                     marginTopClass={marginTopClass}
+                    paddingClass={paddingClass}
                     cardClass={cardClass}
                     name={name}
                     logo={logo}
