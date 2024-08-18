@@ -53,6 +53,10 @@ import Article32 from './components/Articles/Article32.js';
 import Article33 from './components/Articles/Article33.js';
 import Article34 from './components/Articles/Article34.js';
 import Article35 from './components/Articles/Article35.js';
+import Article36 from './components/Articles/Article36.js';
+import Article37 from './components/Articles/Article37.js';
+import Article38 from './components/Articles/Article38.js';
+import Article39 from './components/Articles/Article39.js';
 
 function App() {
   return (
@@ -258,6 +262,22 @@ function App() {
           <Route
             path="/resources/articles/Seamless-Integration:-The Importance-of-EHR-Integration"
             element={<Article35 />}
+          />
+          <Route
+            path="/resources/articles/The-Importance-of-Patient-Records-Management-Solution"
+            element={<Article36 />}
+          />
+          <Route
+            path="/resources/articles/The-Benefits-of-Reminder-Systems"
+            element={<Article37 />}
+          />
+          <Route
+            path="/resources/articles/Analytics-and-Reporting-in-PRM-Software"
+            element={<Article38 />}
+          />
+          <Route
+            path="/resources/articles/Patient-Insights-Utilizing-Feedback-and-Surveys"
+            element={<Article39 />}
           />
           <Route path="/thankyou" element={<Thanks />} />
           <Route path="*" element={<NotFound />} />
