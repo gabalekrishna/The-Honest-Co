@@ -33,6 +33,10 @@ import Article32 from '../../images/Article/Article32a/32.webp';
 import Article33 from '../../images/Article/Article33/33.webp';
 import Article34 from '../../images/Article/Article34/34.webp';
 import Article35 from '../../images/Article/Article35/35.webp';
+import Article36 from '../../images/Article/Article36/36.webp';
+import Article37 from '../../images/Article/Article37/37.webp';
+import Article38 from '../../images/Article/Article38/38.webp';
+import Article39 from '../../images/Article/Article39/39.webp';
 // import Article29 from '../Articles/Article29'
 
 const Filter = [
@@ -421,6 +425,50 @@ const Filter = [
       "EHR systems are digital versions of patients' paper charts, encompassing a wide range of data including medical history, diagnoses, medications, treatment plans, immunization dates, allergies, radiology images, and laboratory test results.",
     url: '/resources/articles/Seamless-Integration:-The Importance-of-EHR-Integration',
     alt: 'Seamless Integration: The Importance of EHR Integration',
+  },
+  {
+    id: 36,
+    image: Article36,
+    name: 'The Importance of Patient  Records Management Solution (PRM)',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Effective Patient Records Management (PRM) is vital for enhancing healthcare by improving data accuracy, accessibility, and security. Digital systems streamline processes, enhance collaboration, reduce costs, and empower patients, with future trends like AI and blockchain driving further innovation.',
+    url: '/resources/articles/The-Importance-of-Patient-Records-Management-Solution',
+    alt: 'The Importance of Patient  Records Management Solution',
+  },
+  {
+    id: 37,
+    image: Article37,
+    name: 'The Benefits of Reminder Systems',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Automated reminder systems in Patient Relationship Management (PRM) significantly enhance patient compliance and reduce missed appointments by offering personalized, multi-channel reminders, real-time updates, and seamless EHR integration, leading to improved patient outcomes and operational efficiency.',
+    url: '/resources/articles/The-Benefits-of-Reminder-Systems',
+    alt: 'Never Miss a Follow-Up: The Benefits of Reminder Systems',
+  },
+  {
+    id: 38,
+    image: Article38,
+    name: 'Analytics and Reporting in PRM Software',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Leveraging data analytics in Patient Relationship Management (PRM) software enhances healthcare by improving patient outcomes, streamlining operations, supporting decision-making, and ensuring data security, leading to better care and efficiency.',
+    url: '/resources/articles/Analytics-and-Reporting-in-PRM-Software',
+    alt: 'Analytics and Reporting in PRM Software',
+  },
+  {
+    id: 39,
+    image: Article39,
+    name: 'Patient Insight Utilizing Feedback and Surveys',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Patient feedback is crucial in healthcare for improving care quality, enhancing patient experience, and building trust. Integrating diverse feedback tools and analyzing insights leads to better service delivery and innovation.',
+    url: '/resources/articles/Patient-Insights-Utilizing-Feedback-and-Surveys',
+    alt: 'Patient Insight Utilizing Feedback and Surveys',
   },
 ];
 
