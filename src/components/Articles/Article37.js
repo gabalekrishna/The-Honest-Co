@@ -264,7 +264,7 @@ export default function Article37() {
                     Personalizing Follow-Up Reminders for Better Engagement
                   </h2>
 
-                  <p className="light-article-content mb-0">
+                  <p className="light-article-content mb-3">
                     Personalized follow-up reminders improve patient engagement
                     by:
                   </p>
