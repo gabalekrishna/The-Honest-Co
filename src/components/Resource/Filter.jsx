@@ -37,6 +37,10 @@ import Article36 from '../../images/Article/Article36/36.webp';
 import Article37 from '../../images/Article/Article37/37.webp';
 import Article38 from '../../images/Article/Article38/38.webp';
 import Article39 from '../../images/Article/Article39/39.webp';
+import ArticleImg41 from '../../images/Article/Article41/mobile.webp';
+import ArticleImg42 from '../../images/Article/Article42/mobile.webp';
+import ArticleImg43 from '../../images/Article/Article43/mobile.webp';
+import ArticleImg44 from '../../images/Article/Article44/mobile.webp';
 // import Article29 from '../Articles/Article29'
 
 const Filter = [
@@ -469,6 +473,61 @@ const Filter = [
       'Patient feedback is crucial in healthcare for improving care quality, enhancing patient experience, and building trust. Integrating diverse feedback tools and analyzing insights leads to better service delivery and innovation.',
     url: '/resources/articles/Patient-Insights-Utilizing-Feedback-and-Surveys',
     alt: 'Patient Insight Utilizing Feedback and Surveys',
+  },
+  {
+    id: 41,
+    image: ArticleImg41,
+    name: 'User Centric Design in Money Transfer',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'PRM systems enhance patient communication through secure messaging, telehealth, and personalized tools, improving patient engagement, satisfaction, and health outcomes. Automated reminders and preference management further streamline communication.',
+    url: '/resources/articles/User-Centric-Design-in-Money-Transfer',
+    alt: 'User Centric Design in Money Transfer',
+  },
+  {
+    id: 42,
+    image: ArticleImg42,
+    name: 'Real-Time Tracking: Enhancing Trust and Transparency',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Real-time tracking in money transfers enhances transparency, providing users with clear, up-to-date information about transaction status. This transparency builds trust, reduces anxiety, and improves customer confidence in the service.',
+    url: '/resources/articles/Transparency-and-Trust',
+    alt: 'Transparency and Trust',
+  },
+  {
+    id: 43,
+    image: ArticleImg43,
+    name: 'Innovations Shaping the Future of Remittance',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'The future of money remittance will be shaped by digital transformation, mobile-first solutions, and emerging technologies like AI and blockchain, leading to faster, more secure, and cost-effective services',
+    url: '/resources/articles/The-future-of-money-remittance',
+    alt: 'The future of money remittanace',
+  },
+  {
+    id: 44,
+    image: ArticleImg44,
+    name: 'Multi-Currency Support: Key Global Solution',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Supporting multiple currencies is vital for global remittance, enabling seamless cross-border transactions and enhancing user experience. Effective currency handling broadens service reach and ensures regulatory compliance.',
+    url: '/resources/articles/Supporting-Multiple-Currencies',
+    alt: 'Supporting Multiple Currencies',
+  },
+  {
+    id: 45,
+    image: ArticleImg44,
+    name: 'Revolutionizing Bill Payment Services',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Fintech innovations have transformed bill payment services by offering greater convenience, security, and efficiency compared to traditional methods, enabling users to manage financial obligations seamlessly through digital platforms.',
+    url: '/resources/articles/Revolutionizing-Bill-Payment-Services',
+    alt: 'Revolutionizing Bill Payment Services',
   },
 ];
 
