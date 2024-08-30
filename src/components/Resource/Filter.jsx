@@ -41,6 +41,12 @@ import ArticleImg41 from '../../images/Article/Article41/mobile.webp';
 import ArticleImg42 from '../../images/Article/Article42/mobile.webp';
 import ArticleImg43 from '../../images/Article/Article43/mobile.webp';
 import ArticleImg44 from '../../images/Article/Article44/mobile.webp';
+import ArticleImg45 from '../../images/Article/Article45/mobile.webp';
+// import ArticleImg46 from '../../images/Article/Article46/mobile.webp';
+// import ArticleImg47 from '../../images/Article/Article47/mobile.webp';
+// import ArticleImg48 from '../../images/Article/Article48/mobile.webp';
+// import ArticleImg49 from '../../images/Article/Article49/mobile.webp';
+// import ArticleImg50 from '../../images/Article/Article50/mobile.webp';
 // import Article29 from '../Articles/Article29'
 
 const Filter = [
@@ -520,7 +526,7 @@ const Filter = [
   },
   {
     id: 45,
-    image: ArticleImg44,
+    image: ArticleImg45,
     name: 'Revolutionizing Bill Payment Services',
     category: 'tab2',
     logo: 'react.svg',

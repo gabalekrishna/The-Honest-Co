@@ -130,14 +130,14 @@ export default function ArticleSam() {
               <div className="col-md-9">
                 {/* section 1 */}
                 <div className="pt-4 pt-md-5" ref={section1Ref} id="section1">
-                  <h2 className="main-article-content">Section1 title</h2>
+                  <h2 className="main-article-content">title</h2>
                   <p className="light-article-content mb-3">Para1</p>
                   <p className="light-article-content mb-3">Para2</p>
                   <p className="light-article-content mb-0">Para3</p>
                 </div>
                 {/* section 2 */}
                 <div className="pt-4 pt-md-5" ref={section2Ref} id="section2">
-                  <h2 className="main-article-content">Section2 title</h2>
+                  <h2 className="main-article-content">title</h2>
                   <p className="light-article-content">
                     PRM (Patient Relationship Management) systems can integrate
                     a variety of tools to gather patient feedback effectively:
@@ -159,11 +159,9 @@ export default function ArticleSam() {
                     alt={Article32B1a}
                   />
                 </div>
-
+                {/* section 3 */}
                 <div className="pt-4 pt-md-5" ref={section3Ref} id="section3">
-                  <h2 className="main-article-content">
-                    Designing Effective Surveys for Maximum Insight
-                  </h2>
+                  <h2 className="main-article-content">Title</h2>
 
                   <p className="light-article-content mb-3">
                     Creating effective surveys involves several key
@@ -182,19 +180,15 @@ export default function ArticleSam() {
                     </li>
                   </ul>
                 </div>
-
+                {/* section 4 */}
                 <div className="pt-4 pt-md-5" ref={section4Ref} id="section4">
-                  <h2 className="main-article-content">
-                    Analyzing and Acting on Patient Feedback
-                  </h2>
+                  <h2 className="main-article-content">title</h2>
 
                   <p className="light-article-content mb-0">Par1.</p>
                 </div>
 
                 <div className="pt-4 pt-md-5" ref={section5Ref} id="section5">
-                  <h2 className="main-article-content">
-                    Improving Patient Satisfaction through Feedback Loops
-                  </h2>
+                  <h2 className="main-article-content">title</h2>
                   <p className="light-article-content mb-3">
                     Creating a feedback loop involves:
                   </p>
@@ -217,37 +211,10 @@ export default function ArticleSam() {
                 </div>
 
                 <div className="pt-4 pt-md-5" ref={section6Ref} id="section6">
-                  <h2 className="main-article-content">
-                    Case Study: Enhancing Care Quality through Patient Surveys
-                  </h2>
+                  <h2 className="main-article-content">title</h2>
 
-                  <p className="light-article-content mb-3">
-                    A case study focusing on enhancing care quality through
-                    patient surveys provides a clear example of how patient
-                    feedback can drive meaningful improvements in healthcare
-                    services. In this particular case, a mid-sized hospital
-                    implemented a comprehensive patient survey system to capture
-                    detailed feedback from patients after their visits. The
-                    surveys covered various aspects of the patient experience,
-                    including wait times, interactions with healthcare staff,
-                    the clarity of medical explanations, and the overall comfort
-                    and cleanliness of the facility.
-                  </p>
-                  <p className="light-article-content mb-3">
-                    Upon collecting the survey responses, the hospital's quality
-                    improvement team conducted a thorough analysis using both
-                    quantitative and qualitative methods. They identified
-                    several key areas needing attention, such as lengthy wait
-                    times in the emergency department, unclear communication
-                    regarding treatment plans, and dissatisfaction with the
-                    cleanliness of certain areas.
-                  </p>
-                  <p className="light-article-content mb-0">
-                    This case study illustrates how effectively integrating
-                    patient feedback and surveys into PRM solutions can lead to
-                    significant improvements in care quality and patient
-                    satisfaction.
-                  </p>
+                  <p className="light-article-content mb-3">para1</p>
+                  <p className="light-article-content mb-0">para2</p>
                 </div>
 
                 <br />
