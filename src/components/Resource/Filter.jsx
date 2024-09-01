@@ -44,7 +44,7 @@ import ArticleImg44 from '../../images/Article/Article44/mobile.webp';
 import ArticleImg45 from '../../images/Article/Article45/mobile.webp';
 import ArticleImg46 from '../../images/Article/Article46/mobile.webp';
 import ArticleImg47 from '../../images/Article/Article47/mobile.webp';
-// import ArticleImg48 from '../../images/Article/Article48/mobile.webp';
+import ArticleImg48 from '../../images/Article/Article48/mobile.webp';
 // import ArticleImg49 from '../../images/Article/Article49/mobile.webp';
 // import ArticleImg50 from '../../images/Article/Article50/mobile.webp';
 // import Article29 from '../Articles/Article29'
@@ -558,13 +558,13 @@ const Filter = [
     alt: 'Global Impact of Money Remittances',
   },
   {
-    id: 47,
-    image: ArticleImg47,
+    id: 48,
+    image: ArticleImg48,
     name: 'Legal Aspects of Money Remittance',
     category: 'tab2',
     logo: 'react.svg',
     description:
-      'Money remittance services significantly improve global lives by enabling financial support, fostering economic development, and enhancing access to essential services, transforming individuals, communities, and economies worldwide.',
+      'Navigating compliance in money remittance involves adhering to complex regulations, including AML, KYC, and data protection laws. Effective compliance ensures legal integrity, customer trust, and operational success',
     url: '/resources/articles/Legal-Aspects-of-Money-Remittance',
     alt: 'Legal Aspects of Money Remittance',
   },
