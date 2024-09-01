@@ -45,8 +45,8 @@ import ArticleImg45 from '../../images/Article/Article45/mobile.webp';
 import ArticleImg46 from '../../images/Article/Article46/mobile.webp';
 import ArticleImg47 from '../../images/Article/Article47/mobile.webp';
 import ArticleImg48 from '../../images/Article/Article48/mobile.webp';
-// import ArticleImg49 from '../../images/Article/Article49/mobile.webp';
-// import ArticleImg50 from '../../images/Article/Article50/mobile.webp';
+import ArticleImg49 from '../../images/Article/Article49/mobile.webp';
+import ArticleImg50 from '../../images/Article/Article50/mobile.webp';
 // import Article29 from '../Articles/Article29'
 
 const Filter = [
@@ -567,6 +567,28 @@ const Filter = [
       'Navigating compliance in money remittance involves adhering to complex regulations, including AML, KYC, and data protection laws. Effective compliance ensures legal integrity, customer trust, and operational success',
     url: '/resources/articles/Legal-Aspects-of-Money-Remittance',
     alt: 'Legal Aspects of Money Remittance',
+  },
+  {
+    id: 49,
+    image: ArticleImg49,
+    name: 'Best Practices for Secure Transfers',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Ensuring secure money transfers in fintech involves advanced encryption, multi-factor authentication, and user education to protect financial data, prevent fraud, and maintain trust in digital transactions.',
+    url: '/resources/articles/Best-Practices-for-Secure-Transfers',
+    alt: 'Best Practices for Secure Transfers',
+  },
+  {
+    id: 50,
+    image: ArticleImg50,
+    name: 'Seamless Integration of Remittance Services',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'The integration of money remittance services with banking systems enhances efficiency and user experience by enabling faster, secure transactions and real-time processing. It bridges traditional banking with digital remittance, improving operational effectiveness and financial inclusion.',
+    url: '/resources/articles/Seamless-Integration-of-Remittance-Services',
+    alt: 'Seamless Integration of Remittance Services',
   },
 ];
 

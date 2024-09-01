@@ -323,11 +323,11 @@ function App() {
             element={<Article48 />}
           />
           <Route
-            path="/resources/articles/Ensuring-Safety"
+            path="/resources/articles/Best-Practices-for-Secure-Transfers"
             element={<Article49 />}
           />
           <Route
-            path="/resources/articles/Connecting-Seamlessly"
+            path="/resources/articles/Seamless-Integration-of-Remittance-Services"
             element={<Article50 />}
           />
 
