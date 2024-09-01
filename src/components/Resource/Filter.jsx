@@ -42,7 +42,7 @@ import ArticleImg42 from '../../images/Article/Article42/mobile.webp';
 import ArticleImg43 from '../../images/Article/Article43/mobile.webp';
 import ArticleImg44 from '../../images/Article/Article44/mobile.webp';
 import ArticleImg45 from '../../images/Article/Article45/mobile.webp';
-// import ArticleImg46 from '../../images/Article/Article46/mobile.webp';
+import ArticleImg46 from '../../images/Article/Article46/mobile.webp';
 // import ArticleImg47 from '../../images/Article/Article47/mobile.webp';
 // import ArticleImg48 from '../../images/Article/Article48/mobile.webp';
 // import ArticleImg49 from '../../images/Article/Article49/mobile.webp';
@@ -534,6 +534,17 @@ const Filter = [
       'Fintech innovations have transformed bill payment services by offering greater convenience, security, and efficiency compared to traditional methods, enabling users to manage financial obligations seamlessly through digital platforms.',
     url: '/resources/articles/Revolutionizing-Bill-Payment-Services',
     alt: 'Revolutionizing Bill Payment Services',
+  },
+  {
+    id: 46,
+    image: ArticleImg46,
+    name: 'Impact of Low Fees on Remittances',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Lowering transaction fees in global remittances enhances financial inclusion by increasing the amount received by recipients, making transfers more accessible, and driving innovation in the remittance industry..',
+    url: '/resources/articles/Reducing-Costs',
+    alt: 'Reducing Costs',
   },
 ];
 
