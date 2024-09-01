@@ -43,7 +43,7 @@ import ArticleImg43 from '../../images/Article/Article43/mobile.webp';
 import ArticleImg44 from '../../images/Article/Article44/mobile.webp';
 import ArticleImg45 from '../../images/Article/Article45/mobile.webp';
 import ArticleImg46 from '../../images/Article/Article46/mobile.webp';
-// import ArticleImg47 from '../../images/Article/Article47/mobile.webp';
+import ArticleImg47 from '../../images/Article/Article47/mobile.webp';
 // import ArticleImg48 from '../../images/Article/Article48/mobile.webp';
 // import ArticleImg49 from '../../images/Article/Article49/mobile.webp';
 // import ArticleImg50 from '../../images/Article/Article50/mobile.webp';
@@ -543,8 +543,30 @@ const Filter = [
     logo: 'react.svg',
     description:
       'Lowering transaction fees in global remittances enhances financial inclusion by increasing the amount received by recipients, making transfers more accessible, and driving innovation in the remittance industry..',
-    url: '/resources/articles/Reducing-Costs',
-    alt: 'Reducing Costs',
+    url: '/resources/articles/Impact-of-Low-Fees-on-Remittances',
+    alt: 'Impact-of-Low-Fees-on-Remittances',
+  },
+  {
+    id: 47,
+    image: ArticleImg47,
+    name: 'Global Impact of Money Remittances',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Money remittance services significantly improve global lives by enabling financial support, fostering economic development, and enhancing access to essential services, transforming individuals, communities, and economies worldwide.',
+    url: '/resources/articles/Global-Impact-of-Money-Remittances',
+    alt: 'Global Impact of Money Remittances',
+  },
+  {
+    id: 47,
+    image: ArticleImg47,
+    name: 'Legal Aspects of Money Remittance',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Money remittance services significantly improve global lives by enabling financial support, fostering economic development, and enhancing access to essential services, transforming individuals, communities, and economies worldwide.',
+    url: '/resources/articles/Legal-Aspects-of-Money-Remittance',
+    alt: 'Legal Aspects of Money Remittance',
   },
 ];
 

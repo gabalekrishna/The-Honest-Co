@@ -27,7 +27,7 @@ export default function Article48() {
   }, []);
 
   const info = {
-    title: '',
+    title: 'Legal Aspects of Money Remittance',
     url: '',
     detailTitle: '',
     date: '',

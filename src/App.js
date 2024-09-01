@@ -311,15 +311,15 @@ function App() {
             element={<Article45 />}
           />
           <Route
-            path="/resources/articles/Reducing-Costs"
+            path="/resources/articles/Impact-of-Low-Fees-on-Remittances"
             element={<Article46 />}
           />
           <Route
-            path="/resources/articles/Real-World-Impact"
+            path="/resources/articles/Global-Impact-of-Money-Remittances"
             element={<Article47 />}
           />
           <Route
-            path="/resources/articles/Navigating-Compliance"
+            path="/resources/articles/Legal-Aspects-of-Money-Remittance"
             element={<Article48 />}
           />
           <Route
