@@ -57,6 +57,17 @@ import Article36 from './components/Articles/Article36.js';
 import Article37 from './components/Articles/Article37.js';
 import Article38 from './components/Articles/Article38.js';
 import Article39 from './components/Articles/Article39.js';
+import Article41 from './components/Articles/Article41.js';
+import Article42 from './components/Articles/Article42.js';
+import Article43 from './components/Articles/Article43.js';
+import Article44 from './components/Articles/Article44.js';
+import Article45 from './components/Articles/Article45.js';
+import Article46 from './components/Articles/Article46.js';
+import Article47 from './components/Articles/Article47.js';
+import Article48 from './components/Articles/Article48.js';
+import Article49 from './components/Articles/Article49.js';
+import Article50 from './components/Articles/Article50.js';
+// import Article51 from './components/Articles/Article51.js';
 
 function App() {
   return (
@@ -279,6 +290,47 @@ function App() {
             path="/resources/articles/Patient-Insights-Utilizing-Feedback-and-Surveys"
             element={<Article39 />}
           />
+          <Route
+            path="/resources/articles/User-Centric-Design-in-Money-Transfer"
+            element={<Article41 />}
+          />
+          <Route
+            path="/resources/articles/Transparency-and-Trust"
+            element={<Article42 />}
+          />
+          <Route
+            path="/resources/articles/The-future-of-money-remittance"
+            element={<Article43 />}
+          />
+          <Route
+            path="/resources/articles/Supporting-Multiple-Currencies"
+            element={<Article44 />}
+          />
+          <Route
+            path="/resources/articles/Revolutionizing-Bill-Payment-Services"
+            element={<Article45 />}
+          />
+          <Route
+            path="/resources/articles/Impact-of-Low-Fees-on-Remittances"
+            element={<Article46 />}
+          />
+          <Route
+            path="/resources/articles/Global-Impact-of-Money-Remittances"
+            element={<Article47 />}
+          />
+          <Route
+            path="/resources/articles/Legal-Aspects-of-Money-Remittance"
+            element={<Article48 />}
+          />
+          <Route
+            path="/resources/articles/Best-Practices-for-Secure-Transfers"
+            element={<Article49 />}
+          />
+          <Route
+            path="/resources/articles/Seamless-Integration-of-Remittance-Services"
+            element={<Article50 />}
+          />
+
           <Route path="/thankyou" element={<Thanks />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
