@@ -499,6 +499,9 @@ h1 {
   .heading-logo {
     margin-left: 8%;
   }
+  .pb-md-6 {
+    padding-bottom: 4rem;
+  }
 }
 /* .form-floating > label {
   padding: 1.8rem 0rem !important;

@@ -37,7 +37,7 @@ function Industries() {
 
       <div className="container">
         <div className="row">
-          <div className="col-6 col-md-custom-2 pb-md-5">
+          <div className="col-6 col-md-custom-2 pb-md-6">
             <div className="industry-card">
               <img className="indistryImage" src={indistry1} alt="Indistry 1" />
               <div className="indistryHeading pt-4 pb-2">D2C & ECommerce</div>
@@ -48,7 +48,7 @@ function Industries() {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-custom-2 pb-md-5">
+          <div className="col-6 col-md-custom-2 pb-md-6">
             <div className="industry-card">
               <img className="indistryImage" src={indistry2} alt="Indistry 2" />
               <div className="indistryHeading pt-4 pb-2">Banking & Finance</div>
@@ -59,7 +59,7 @@ function Industries() {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-custom-2 pb-md-5">
+          <div className="col-6 col-md-custom-2 pb-md-6">
             <div className="industry-card">
               <img className="indistryImage" src={indistry3} alt="Indistry 1" />
               <div className="indistryHeading pt-4 pb-2">
@@ -72,7 +72,7 @@ function Industries() {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-custom-2 pb-md-5">
+          <div className="col-6 col-md-custom-2 pb-md-6">
             <div className="industry-card">
               <img className="indistryImage" src={indistry4} alt="Indistry 1" />
               <div className="indistryHeading pt-4 pb-2">
@@ -85,7 +85,7 @@ function Industries() {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-custom-2 pb-md-5">
+          <div className="col-6 col-md-custom-2 pb-md-6">
             <div className="industry-card">
               <img className="indistryImage" src={indistry5} alt="Indistry 1" />
               <div className="indistryHeading pt-4 pb-2">
