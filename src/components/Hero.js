@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
-import "./Hero.css";
-import "./../App.css";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../images/logo.svg";
-import logoIcon from "../images/logo-icon.png";
-import { Link, useNavigate } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
-import startImage from "./Verfifed.svg"; // Ensure the correct path is used
-import startmob from './MobileBatch.webp'
-import $ from "jquery";
+import React, { useEffect, useState } from 'react';
+import './Hero.css';
+import './../App.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import logo from '../images/logo.svg';
+import logoIcon from '../images/logo-icon.png';
+import { Link, useNavigate } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+import startImage from './Verfifed.svg'; // Ensure the correct path is used
+import startmob from './MobileBatch.webp';
+import $ from 'jquery';
 
 function Hero() {
   const navigate = useNavigate();
@@ -21,28 +21,27 @@ function Hero() {
 
   const handleToggle = () => {
     setMenuOpen(!isMenuOpen);
-    $("#toggle").toggleClass("active");
-    $("#overlay").toggleClass("open");
+    $('#toggle').toggleClass('active');
+    $('#overlay').toggleClass('open');
   };
   const handleHome = () => {
     setMenuOpen(!isMenuOpen);
-    navigate('/')
-  }
+    navigate('/');
+  };
   const handleAboutClick = () => {
     setMenuOpen(!isMenuOpen);
     navigate('/?scrollTo=Ourstory');
-  }
+  };
   const handleServicesClickMob = () => {
-    navigate('/?scrollTo=ServicesMob')
+    navigate('/?scrollTo=ServicesMob');
     setMenuOpen(!isMenuOpen);
-
-  }
+  };
   const handleScrollTo = (elementId) => {
     const element = document.getElementById(elementId);
     if (element) {
       element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
+        behavior: 'smooth',
+        block: 'start',
       });
 
       setMenuOpen(!isMenuOpen);
@@ -50,12 +49,12 @@ function Hero() {
   };
 
   return (
-    <section id="hero">
+    <section className="mb-5" id="hero">
       <Container>
         <div className="app-container pt-2">
           {/* Desktop header */}
           <Navbar
-            className={`py-4 ${showHeader ? "headerVisible" : ""}`}
+            className={`py-4 ${showHeader ? 'headerVisible' : ''}`}
             expand="lg"
             variant="dark"
           >
@@ -88,7 +87,10 @@ function Hero() {
                 <Nav.Link href="#" className="menu-link">
                   <Link to="/resources">resources</Link>
                 </Nav.Link>
-                <Nav.Link href="https://wa.me/917011242138" className="nav-btn-area">
+                <Nav.Link
+                  href="https://wa.me/917011242138"
+                  className="nav-btn-area"
+                >
                   <button className="nav-button">get in touch</button>
                 </Nav.Link>
               </Nav>
@@ -106,8 +108,9 @@ function Hero() {
             </Link>
             <div
               id="navbar-nav toggle"
-              className={`justify-content-end button_container ${isMenuOpen ? "active" : ""
-                }`}
+              className={`justify-content-end button_container ${
+                isMenuOpen ? 'active' : ''
+              }`}
               onClick={handleToggle}
             >
               <span className="top"></span>
@@ -116,24 +119,22 @@ function Hero() {
             </div>
             <Navbar.Toggle aria-controls="navbar-nav" />
 
-            <div id="overlay" className={`overlay ${isMenuOpen ? "open" : ""}`}>
+            <div id="overlay" className={`overlay ${isMenuOpen ? 'open' : ''}`}>
               <nav className="overlay-menu">
                 <div className="pl-6">
                   <span onClick={handleHome}>Home</span>
                 </div>
                 <ul>
                   <li>
-                    <Link onClick={() => handleScrollTo("Ourstory")}>
+                    <Link onClick={() => handleScrollTo('Ourstory')}>
                       About
                     </Link>
                   </li>
                   <li>
-
-                    <Link onClick={() => handleScrollTo("ServicesMob")}>
+                    <Link onClick={() => handleScrollTo('ServicesMob')}>
                       Services
                     </Link>
-
-                    /{" "}
+                    /{' '}
                   </li>
                   <li>
                     <ScrollLink to="Ourstory" smooth={true} duration={200}>
@@ -168,13 +169,12 @@ function Hero() {
                 </div>
                 <h2 className="heading-quote">
                   We help <span className="bg-elipse">businesses</span>
-                  <br />{" "}
+                  <br />{' '}
                   <span className="px-md-4 px-2 heading-icon">
                     <img alt="" className="rotate" src={logoIcon} />
-                  </span>{" "}
+                  </span>{' '}
                   create digital products
-                  <br />
-                  & solutions.
+                  <br />& solutions.
                 </h2>
               </div>
               <div className="col-md-4 col-12 p-absolute d-md-block d-none">
@@ -192,11 +192,15 @@ function Hero() {
             <div className="border-top">
               <div className="row align-items-center">
                 <div className="col-12 col-md-8 d-flex flex-column alignment-text">
-                  <p className="text-white pb-3 pt-4 text-uppercase bottom-header-text font-media-15 px-md-0 px-2">
+                  <p className="text-white pb-1 pt-2 text-uppercase bottom-header-text font-media-15 px-md-0 px-2">
                     We are a community of creators who make really cool things
                     for businesses that help them succeed.
                   </p>
-                  <Link to="/get-in-touch/customer-inquiry" smooth={true} duration={500}>
+                  <Link
+                    to="/get-in-touch/customer-inquiry"
+                    smooth={true}
+                    duration={500}
+                  >
                     <button className="nav-foot-button">
                       Get started with us!
                     </button>
@@ -210,7 +214,9 @@ function Hero() {
                       src={startImage}
                       alt="Get Started"
                       className="start-image"
-                      onClick={() => window.open('https://www.designrush.com/', '_blank')}
+                      onClick={() =>
+                        window.open('https://www.designrush.com/', '_blank')
+                      }
                       style={{ cursor: 'pointer' }}
                     />
                   </picture>

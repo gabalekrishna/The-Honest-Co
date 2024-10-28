@@ -16,8 +16,9 @@ import { useLocation } from 'react-router-dom';
 import { scroller } from 'react-scroll';
 import TheHonest from '../images/The_honest.png';
 import GoogleTagManager from '../GoogleTagManager';
+import CommunityCarousel from '../components/Community/Community';
 
-function LandingPage() {
+function Test() {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -71,7 +72,6 @@ function LandingPage() {
       </Helmet>
       <Hero />
       <Header />
-
       <Services id="Services" />
       <ServicesMob />
       <Work />
@@ -80,10 +80,11 @@ function LandingPage() {
       <Counter />
       <Contact />
       <Resource />
+      <CommunityCarousel />
       <Footer />
       <ChatComponent />
     </div>
   );
 }
 
-export default LandingPage;
+export default Test;
