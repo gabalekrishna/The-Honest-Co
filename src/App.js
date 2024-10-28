@@ -67,6 +67,7 @@ import Article47 from './components/Articles/Article47.js';
 import Article48 from './components/Articles/Article48.js';
 import Article49 from './components/Articles/Article49.js';
 import Article50 from './components/Articles/Article50.js';
+import Test from './pages/Test.js';
 // import Article51 from './components/Articles/Article51.js';
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
         <GoogleTagManager />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/test" element={<Test />} />
           <Route
             path="/get-in-touch/customer-inquiry"
             element={<CustomerContact />}

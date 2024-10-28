@@ -1,5 +1,5 @@
-import React from "react";
-import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
+import React from 'react';
+import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 
 export default function ServicesMob() {
   return (
@@ -9,7 +9,7 @@ export default function ServicesMob() {
           <div className="col-12 col-md-5 col-lg-5">
             <div className="text-uppercase">
               <h1 className="left-aligned section-heading">
-                <span className="text-light-color text-light-space">OUR</span>{" "}
+                <span className="text-light-color text-light-space">OUR</span>{' '}
                 SERVICES
               </h1>
             </div>
@@ -17,7 +17,10 @@ export default function ServicesMob() {
           <div className="col-12 col-md-7 col-lg-7 d-flex">
             <div className="sub-heading d-flex align-items-center">
               <p className="m-0">
-              Whether it's developing a software application, designing a new product or creating compelling marketing content, our commitment is unwavering, to deliver exceptional results that consistently exceed expectations.
+                Whether it's developing a software application, designing a new
+                product or creating compelling marketing content, our commitment
+                is unwavering, to deliver exceptional results that consistently
+                exceed expectations.
               </p>
             </div>
           </div>
@@ -27,7 +30,8 @@ export default function ServicesMob() {
         <MDBAccordion initialActive={1}>
           <MDBAccordionItem collapseId={1} headerTitle="Custom Solutions ">
             <div className="accordian-header">
-            Crafting customized, user-centric applications across platforms, leveraging the best of digital development.
+              Crafting customized, user-centric applications across platforms,
+              leveraging the best of digital development.
             </div>
             <ul className="py-4 accordian-list">
               <li>Process Automation </li>
@@ -38,7 +42,8 @@ export default function ServicesMob() {
           </MDBAccordionItem>
           <MDBAccordionItem collapseId={2} headerTitle="Mobile Applications ">
             <div className="accordian-header">
-            Curating powerful mobility solutions for the fast moving businesses, allowing customer to take actions swiftly. 
+              Curating powerful mobility solutions for the fast moving
+              businesses, allowing customer to take actions swiftly.
             </div>
             <ul className="py-4 accordian-list">
               <li>Digital Product Development</li>
@@ -49,7 +54,8 @@ export default function ServicesMob() {
           </MDBAccordionItem>
           <MDBAccordionItem collapseId={3} headerTitle="AI & ML Solutions ">
             <div className="accordian-header">
-            Transforming ideas into tangible working solutions, creating bespoke automations saving time and money. 
+              Transforming ideas into tangible working solutions, creating
+              bespoke automations saving time and money.
             </div>
             <ul className="py-4 accordian-list">
               <li>System Integration</li>
