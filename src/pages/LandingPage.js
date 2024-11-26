@@ -60,10 +60,10 @@ function LandingPage() {
           content="Honest Digital Services | Product Development Agency"
         />
         <meta property="og:image" content={TheHonest} /> */}
-        {/* <meta
+        <meta
           name="description"
           content="Helping businesses create digital products. We specialize in creating taiored web and mobile app development, branding & content creation and packaing & industrial design."
-        /> */}
+        />
         <meta name="keywords" content=""></meta>
         <meta name="author" content="Karthik Nath"></meta>
       </Helmet>
